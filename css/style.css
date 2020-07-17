@@ -1,0 +1,367 @@
+   body {
+       text-align: center;
+       font-family: 'Fondamento', cursive;
+       margin-left: 0px;
+       margin-right: 0px;
+       margin-top: 0px;
+   }
+   
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+       font-size: 5.625rem;
+       font-size: 2.5rem;
+       margin-top: 0;
+       font-weight: 500;
+       color: white;
+   }
+   /*
+.typewriter {
+    background-color: white;
+    position: relative;
+    padding-top: 100px;
+}
+
+*/
+   
+   .author {
+       background-color: black;
+       position: relative;
+       padding-top: 100px;
+       overflow: hidden;
+       /* Ensures the content is not revealed until the animation */
+       border-right: .15em solid orange;
+       /* The typwriter cursor */
+       white-space: nowrap;
+       /* Keeps the content on a single line */
+       margin: 0 auto;
+       /* Gives that scrolling effect as the typing happens */
+       letter-spacing: .15em;
+       /* Adjust as needed */
+       animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+   }
+   /* The typing effect */
+   
+   @keyframes typing {
+       from {
+           width: 0
+       }
+       to {
+           width: 100%
+       }
+   }
+   /* The typewriter cursor effect */
+   
+   @keyframes blink-caret {
+       from,
+       to {
+           border-color: transparent
+       }
+       50% {
+           border-color: white
+       }
+   }
+   /* DEMO-SPECIFIC STYLES */
+   
+   .Job {
+       background-color: black;
+       position: relative;
+       padding-top: 100px;
+       overflow: hidden;
+       /* Ensures the content is not revealed until the animation */
+       border-right: .15em solid orange;
+       /* The typwriter cursor */
+       white-space: nowrap;
+       /* Keeps the content on a single line */
+       margin: 0 auto;
+       /* Gives that scrolling effect as the typing happens */
+       letter-spacing: .15em;
+       /* Adjust as needed */
+       animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+   }
+   /* The typing effect */
+   
+   @keyframes typing {
+       from {
+           width: 0
+       }
+       to {
+           width: 100%
+       }
+   }
+   /* The typewriter cursor effect */
+   
+   @keyframes blink-caret {
+       from,
+       to {
+           border-color: transparent
+       }
+       50% {
+           border-color: white
+       }
+   }
+   
+   .button-5 {
+       border-radius: 4px;
+       background-color: black;
+       border: none;
+       color: #FFFFFF;
+       text-align: center;
+       font-size: 28px;
+       padding: 20px;
+       width: 200px;
+       transition: all 0.5s;
+       cursor: pointer;
+       margin: 5px;
+   }
+   
+   .button-5 span {
+       cursor: pointer;
+       display: inline-block;
+       position: relative;
+       transition: 0.5s;
+   }
+   
+   .button-5 span:after {
+       content: '\00bb';
+       position: absolute;
+       opacity: 0;
+       top: 0;
+       right: -20px;
+       transition: 0.5s;
+   }
+   
+   .button-5:hover span {
+       padding-right: 25px;
+   }
+   
+   .button-5:hover span:after {
+       opacity: 1;
+       right: 0;
+   }
+   /* DEMO-SPECIFIC STYLES */
+   
+   .middle-container {
+       background-color: whitesmoke;
+       position: relative;
+       padding-top: 0px;
+       padding: 0px;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+       max-width: 500px;
+       margin: auto;
+       text-align: center;
+       width: 100%;
+       padding-top: 10px;
+       padding-bottom: 10px;
+   }
+   
+   .bottom-container {
+       background-color: whitesmoke;
+       position: relative;
+       padding-top: 300px;
+   }
+   
+   .bottom-cloud {
+       position: absolute;
+       left: 300px;
+       top: 50px;
+       bottom: 300px;
+       padding-top: 100px;
+   }
+   
+   .top-cloud {
+       padding-top: 80px;
+       position: absolute;
+       right: 300px;
+       top: 50px;
+   }
+   
+   .About-row {
+       width: 50%;
+       margin: 100px, auto, 100px, auto;
+       margin: auto;
+       text-align: left;
+       line-height: 2;
+   }
+   
+   .skill-row {
+       width: 50%;
+       margin: 100px, auto, 100px, auto;
+       margin: auto;
+       text-align: left;
+       line-height: 2;
+       padding-top: 40px;
+       padding-right: 40px;
+       padding-left: 40px;
+       padding-bottom: 40px;
+   }
+   
+   .Hobbies-row {
+       width: 50%;
+       margin: 100px, auto, 100px, auto;
+       margin: auto;
+       text-align: left;
+       line-height: 2;
+       padding-top: 40px;
+       padding-right: 40px;
+       padding-left: 40px;
+       padding-bottom: 40px;
+   }
+   
+   .ImageSize {
+       width: 20%;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       border-radius: 20%;
+   }
+   
+   .SkillsSize {
+       width: 25%;
+       float: left;
+       margin: 35px;
+   }
+   
+   .HobbiesSize {
+       width: 25%;
+       float: left;
+       margin: 35px;
+       padding: 10px;
+   }
+   
+   button {
+       border: none;
+       outline: 0;
+       display: inline-block;
+       padding: 8px;
+       color: whitesmoke;
+       background-color: #000;
+       text-align: center;
+       cursor: pointer;
+       width: 100%;
+       font-size: 18px;
+   }
+   
+   a {
+       text-decoration: none;
+       color: black;
+   }
+   
+   button:hover,
+   a:hover {
+       opacity: 0.7;
+   }
+   /* Create three equal columns that floats next to each other */
+   
+   * {
+       box-sizing: border-box;
+   }
+   
+   .column {
+       float: left;
+       width: 33.22%;
+       padding: 10px;
+       height: 300px;
+       /* Should be removed. Only for demonstration */
+   }
+   /* Clear floats after the columns */
+   
+   .row:after {
+       content: "";
+       display: table;
+       clear: both;
+   }
+   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+   
+   @media screen and (max-width: 600px) {
+       .column {
+           width: 100%;
+       }
+   }
+   /* How To Use Relative Potionning 
+
+.top-container {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    border: solid 10px;
+    position: relative;
+    left: 1000px;
+}
+
+.middle-container {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    border: solid 10px;
+    position: relative;
+    bottom: 320px;
+    left: 679px;
+}
+
+.bottom-container {
+    background-color: darkkhaki;
+    width: 100px;
+    height: 100px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    border: solid 10px;
+    position: relative;
+    bottom: 640px;
+    left: 357px;
+}
+
+*/
+   /* How To Use Asolute Potionning 
+
+.top-container {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    border: solid 10px;
+}
+
+.middle-container {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    border: solid 10px;
+    position: absolute;
+    left: 320px;
+}
+
+.bottom-container {
+    background-color: darkkhaki;
+    width: 100px;
+    height: 100px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    border: solid 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 639px;
+}
+*/
