@@ -1,6 +1,5 @@
 # -Emmanuel-Portfolio-
 
-
 <h1 align="center">🚀 Emmanuel's Portfolio 🚀 </h1>
 <p align="center">
 	Here's my portfolio! <br/><br/>
@@ -123,28 +122,3 @@ ___________________▄▄▄▀▀▀▀▀▀▀▄
  __________________________██▒▒▒▒▒▒░░░█▀
  _____________________________█░░░░░█▀
  _______________________________▀▀▀▀
-
-
-  <!---Social Link -->
-    <section class="info_area" id="Contacts"></section>
-    <div style="background-color: black"class="bottom-container">
-        <img class="top-cloud" src="Images/cloud.png" alt="cloud-img">
-        <img class="bottom-cloud" src="Images/cloud.png" alt="cloud-img">
-        <a style="color:white;"class="footer-link" href="https://www.linkedin.com/in/emmanuel-isidahomen-0b9341181/">LinkedIn</a>
-        <a style="color:white;"class="footer-link" href="https://github.com/Emmanuelisi20">GitHub</a>
-        <a style="color:white;"class="footer-link" href="https://www.facebook.com/emmanuel.isidahomen.3">FaceBook</a>
-
-        <a href="Images/Converted.png">
-            <button type="button" name="button">
-                VIEW RESUME
-            </button></a>
-        <a href="mailto:Emmanuelisi10@gmail.com">
-            <button type="button" name="button">
-                Contact Me
-            </button></a>
-        <br>
-        <p>Created by Emmanuel Isidahomen&copy;2020</p>
-    </div>
-
-
-  
